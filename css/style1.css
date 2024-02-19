@@ -9,7 +9,7 @@
 
 
 :root{
---bs-purpledark:#774E76;
+--bs-purpledark: purple;
 --bs-purplelight:#CC9BCA;
 --bs-purpletext:#804E76;
 --bs-pink:#d63384;
@@ -424,7 +424,7 @@ object-fit: cover;
 
 #hero:before {
 content: "";
-background: rgba(226, 216, 216, 0.51);
+background: rgba(99, 99, 99, 0.51);
 position: absolute;
 bottom: 0;
 top: 0;
@@ -441,8 +441,9 @@ margin: 0;
 font-size: 56px;
 font-weight: 700;
 line-height: 72px;
-color: var(--bs-purpledark);
+color: purple;
 font-family: "Poppins", sans-serif;
+text-shadow: 2px 2px 2px black;
 }
 
 #hero h2 {
@@ -462,7 +463,7 @@ border-radius: 5px;
 transition: 0.5s;
 margin-top: 30px;
 color: #fff;
-background: var(--bs-purpletext);
+background: purple;
 }
 
 #hero .btn-get-started:hover {
@@ -477,7 +478,7 @@ margin-top: 100px;
 padding: 50px 30px;
 position: relative;
 overflow: hidden;
-background: var(--bs-purpledark);
+background: purple;
 box-shadow: 0 0 29px 0 rgba(18, 66, 101, 0.08);
 transition: all 0.3s ease-in-out;
 border-radius: 8px;
