@@ -9,7 +9,7 @@
 
 
 :root{
---bs-purpledark: purple;
+--bs-purpledark:#774E76;
 --bs-purplelight:#CC9BCA;
 --bs-purpletext:#804E76;
 --bs-pink:#d63384;
@@ -153,16 +153,16 @@ font-family: "Poppins", sans-serif;
 }
 
 h1.logo {
-font-size: 20px;
+font-size: 10px;
 font-weight: 800 !important;
 }
 
 #header .logo a {
-color: var(--bs-purpledark);
+color: #111;
 }
 
 #header .logo img {
-max-height: 70px;
+max-height: 40px;
 }
 
 @media (max-width: 992px) {
@@ -200,7 +200,7 @@ align-items: center;
 justify-content: space-between;
 padding: 10px 0 10px 30px;
 font-size: 14px;
-color: var(--bs-purplelight);
+color: #111;
 white-space: nowrap;
 transition: 0.3s;
 }
@@ -441,7 +441,7 @@ margin: 0;
 font-size: 56px;
 font-weight: 700;
 line-height: 72px;
-color: purple;
+color: #ffffff;
 font-family: "Poppins", sans-serif;
 text-shadow: 2px 2px 2px black;
 }
@@ -463,11 +463,11 @@ border-radius: 5px;
 transition: 0.5s;
 margin-top: 30px;
 color: #fff;
-background: purple;
+background: var(--bs-purpletext);
 }
 
 #hero .btn-get-started:hover {
-background: var(--bs-purplelight);
+background: var(--bs-purpletext);
 }
 
 #hero .icon-boxes {
@@ -478,7 +478,7 @@ margin-top: 100px;
 padding: 50px 30px;
 position: relative;
 overflow: hidden;
-background: purple;
+background: var(--bs-purpletext);
 box-shadow: 0 0 29px 0 rgba(18, 66, 101, 0.08);
 transition: all 0.3s ease-in-out;
 border-radius: 8px;
